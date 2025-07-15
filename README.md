@@ -1,81 +1,81 @@
-# Interview Tracker Website 
+# React_Food_Delivery_App
+## Preview  Link : 
+<hr/>
 
-# [Project Demonstration](https://youtu.be/DFSUiORaEbA)
+# Install
+  ### `git clone https://github.com/SPRHackz/React_Food_Delivery.git`
+  
+  ###  `npm install`
+  
+  ### `npm start`
 
-## About The Website
+# Getting Started with Create React App
 
-A web application made using Node.js framework to ease the process of interivew preperation by gathering all resources at a single place i.e several practice questions and interview experiences.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Environment Setup 
+## Available Scripts
 
-* Install node.js
-* Set up and connect to mongo server
-* Install all required dependancies using npm install command
-* Connect the port to localhost:3000
+In the project directory, you can run:
 
-### Tech Stack Used
-* Node.js
-* MongoDB
-* HTML 
-* CSS
-* Bootstrap
-* JavaScript
+### `npm start`
 
-### Home Page
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The home page contains navbar , body and footer .
-* Before authentication it shows two options signup and login .
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![](/website/bfauth.png)
+### `npm test`
 
-* After login it displays user's username and gives access to all other parts of the website
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![](/website/afauth.png)
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Practice Section
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-A user can practice many questions topic wise . 
-* Topics page contains several topics
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![](/website/topics.png)
+### `npm run eject`
 
-* A particular topic's page contains all questions related to that topic
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-![](/website/questions.png)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Experiences
-A user can read many interview experiences company wise . 
-Companies page contains several companys displayed on card
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-![](/website/companies.png)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-A particular company's page contains all experiences related to that company
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Contribuition
-A user can contribute as well .
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* Adding Questions
+### Code Splitting
 
-![](/website/questionform.png) 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-* Adding Experience
+### Analyzing the Bundle Size
 
-![](/website/experienceform.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-A user added question or experience needs admin approval to be displayed in the website . If a admin adds it gets saved and displayed by default.
+### Making a Progressive Web App
 
-## Admin Panel
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-* Authenticated admin panel 
+### Advanced Configuration
 
-![](/website/adminauth.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-* Admins can add , delete modify models data and also approve questions or experiences added by users .
+### Deployment
 
-![](/website/adminpanel.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-# [Certificate of Appreciation](https://drive.google.com/file/d/1QLo9nh_SHCCnCU0Qx3LckVIQv6-YaOi_/view?usp=sharing)
+### `npm run build` fails to minify
 
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
